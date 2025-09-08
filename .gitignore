@@ -1,1 +1,33 @@
-.bun/install/cache/@next/swc-darwin-arm64@14.0.4@@@1/next-swc.darwin-arm64.node
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+.CFUserTextEncoding
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Bun files
+.bun
+
+# Vite cache
+.vite/
+
+# Downloads folder (if it's in the repo root and not needed)
+Downloads/
+
+# Bun lock file (optional, but if you want to track it, keep it)
+# bun.lockb
+
+# Ignore build output directories (adjust if needed)
+dist/
+build/
+
+Downloads/
